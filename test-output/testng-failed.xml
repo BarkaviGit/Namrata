@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.stepdef.StepdefClass">
+        <methods>
+          <include name="not_in_our_list"/>
+          <include name="user_Has_to_be_in_loging_Page_of_project"/>
+          <include name="check_menus_and_scroll_down"/>
+        </methods>
+      </class> <!-- org.stepdef.StepdefClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
